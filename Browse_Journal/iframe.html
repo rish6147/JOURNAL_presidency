@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="wide wow-animation smoothscroll" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>Presidency University Journal</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,700%7CJosefin+Slab:400,700%7CLato:400,400i,700%7CMerriweather:400,700%7COpen+Sans:300">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+<div id="loadJournals"><div class="cell-sm-12 cell-md-6 cell-lg-8">
+    <h4 class="text-center mb-4">Volume 1 Issue:14 JUL 2023</h4>
+    <div class="journal-list">
+        <div class="row">
+            <div class="col-xl-10 col-lg-9 col-md-7">
+                <div class="py-3 h-100">
+                    <div class="journal-info">
+                        <h5 class="title"><a class="text-primary" href="#">
+                            PERSONAL HEALTH INFLUENCERS THROUGH SOCIAL NETWORK</a></h5>
+                    </div>
+                    <p class="mb-1"></p>
+                    <div class="keywords">Keywords: <span class="badge badge-secondary mr-1">Bagasse ash</span><span class="badge badge-secondary mr-1">Sol-gel synthesis</span><span class="badge badge-secondary mr-1">Magnetic Stirring</span><span class="badge badge-secondary mr-1">Nanoparticles</span></div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3">
+                <div class="for-booking">
+                    <div class="author mt-3"><strong>
+                        Srikanth Reddy N,
+                              Manish Y B,
+                              Rochan KUmar,
+                            Sarvesh Jojna</strong></div>
+                    <div class="button button-primary button-sm button-square button-effect-ujarak mb-4" onclick="showAbstractModal('The importance of health to a living being is immense, and personal health influence on social networks has the power to impact their followers health and wellness behavior. However, there are concerns about the accuracy and safety of their advice and the potential for promoting harmful products or practices. This study aims to explore the role of promoting health-related behavior among their followers and to identify the factors that influence their credibility and effectiveness as health communicators on social networks. Influencers marketing offers health communicators opportunities to bypass the boundaries of filter bubbles and introduce new ideas into online communitie')">View
+                        Abstract</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-10 col-lg-9 col-md-7">
+                <div class="py-3 h-100">
+                    <div class="journal-info">
+                        <h5 class="title"><a class="text-primary" href="#">
+                            PREDICTING THE ONSET OF LIFESTYLE DISEASE</a></h5>
+                    </div>
+                    <p class="mb-1"></p>
+                    <div class="keywords">Keywords: <span class="badge badge-secondary mr-1">Lifestyle Diseases</span><span class="badge badge-secondary mr-1">Decision Tree</span><span class="badge badge-secondary mr-1">Random Forest</span><span class="badge badge-secondary mr-1">Support Vector Machine</span></div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3">
+                <div class="for-booking">
+                    <div class="author mt-3"><strong>
+                             Jaishree R M,
+                             K Yadu Vamshi,
+                             Madhura H C S,
+                              Manvitha M</strong></div>
+                    <div class="button button-primary button-sm button-square button-effect-ujarak mb-4" onclick="showAbstractModal('Lifestyle diseases are conditions whose occurrence is mostly related to a persons regular daily routines or even an individual’s work environment. Heart conditions, Obesity,Type 2 Diabetes, hypertension, certain types of cancer are examples of several forms of lifestyle diseases. Several risk factors for lifestyle diseases have been identified, these include age, genetics, unhealthy eating habits, physical inactivity, poor body posture, a disrupted biological clock, excessive smoking and alcohol consumption, etc. Many lifestyle diseases have an insidious start, take years to develop, and are difficult to treat once they manifest. The use of machine learning algorithms in the early prediction of lifestyle disorders has the potential to improve public health outcomes by enabling early identification and intervention. Algorithms such as decisiontrees, random forest algorithms, k-nearest neighbor, Naive bayes algorithm and support vector machines (SVM) have the potential to aid in the early diagnosis of lifestyle disorders.')">View
+                        Abstract</div>
+                </div>
+            </div>
+        </div><div class="modal fade" id="abstractModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Abstract</h4>
+                    </div>
+                    <div class="modal-body" id="abstractModalBody">
+        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn button-default button-effect-ujarak button-square" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+
+
+
+        <script src="core.min.js"></script>
+        <script src="script.js"></script>
+        <script>
+            function showAbstractModal(abs) {
+      document.getElementById("abstractModalBody").innerHTML = abs;
+      $("#abstractModal").modal({backdrop:'static',keyboard:false})
+    }
+        </script>
+
+</body>
+</html>
