@@ -81,6 +81,7 @@
                   <form>
                     <select class="form-control" id="issueNoSelectBox">
                         <option selected="" >Select a Volume</option>
+                        <option id = "vo4" value = "Vol1023">Volume 2 Issue:10 NOV 2023</option>
                         <option id = "vo1" value = "Vol1421" >Volume 1 Issue:14 JUL 2023</a></option>
                         <option id = "vo2" value = "Vol1418">Volume 1 Issue:14 JUN 2023</option>
                         <option id = "vo3" value = "Vol1317">Volume 1 Issue:13 MAY 2023</option>
@@ -241,6 +242,9 @@
             break;
         case "Vol1317":
             document.getElementById("iframe1").src = "Browse_Journal/iframe3.html";
+            break;
+        case "Vol1023":
+            document.getElementById("iframe1").src = "Browse_Journal/iframe4.html";
             break;
       }
     }
